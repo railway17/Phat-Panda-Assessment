@@ -126,7 +126,6 @@ class TestScript {
         $jsonTravel = json_decode($travels);
         $travelList = [];
         
-        $travelCost = 0;
         for($i = 0; $i < count($jsonTravel); $i ++) {
             $travelList[] = new Travel($jsonTravel[$i]);
         
